@@ -102,14 +102,14 @@ const Formulario = ({
             itemStyle ={{height:120, backgroundColor:'white'}}
             onValueChange={pais => guardarBusqueda({...busqueda, pais})}
             >
-            <Picker.Item label='--Seleccione Un País--' value='' />
-            <Picker.Item label='Estados Unidos' value='US' />
-            <Picker.Item label='México' value='MX' />
-            <Picker.Item label='Argentina' value='AR' />
-            <Picker.Item label='Colombia' value='CO' />
-            <Picker.Item label='Costa Rica' value='CR' />
-            <Picker.Item label='España' value='ES' />
-            <Picker.Item label='Perú' value='PE' />
+            <Picker.Item color='black' label='--Seleccione Un País--' value='' />
+            <Picker.Item color='black' label='Estados Unidos' value='US' />
+            <Picker.Item color='black' label='México' value='MX' />
+            <Picker.Item color='black' label='Argentina' value='AR' />
+            <Picker.Item color='black' label='Colombia' value='CO' />
+            <Picker.Item color='black' label='Costa Rica' value='CR' />
+            <Picker.Item color='black' label='España' value='ES' />
+            <Picker.Item color='black' label='Perú' value='PE' />
           </Picker>
         </View>
         <TouchableWithoutFeedback
